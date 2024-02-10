@@ -1,4 +1,6 @@
-// 1
+// Exercise 3 Anugrah Abrar Daffa
+
+// Number 1
 
 let number = 9;
 
@@ -6,7 +8,7 @@ for (let i = 1; i <= 10; i++) {
   console.log(`- ${number} x ${i}`);
 }
 
-// 2
+// Number 2
 
 let string = "madam";
 let container = "";
@@ -21,7 +23,7 @@ if (container === string) {
   console.log("The word is not palindrome");
 }
 
-// 3
+// Number 3
 
 let centimeter = 100000;
 
@@ -29,7 +31,7 @@ let km = centimeter / 100000;
 
 console.log(km);
 
-// 4
+// Number 4
 
 let numCurr = "152345";
 let curr = "Rp. ";
@@ -51,14 +53,14 @@ for (let i = 0; i < numCurr.length; i++) {
 
 console.log(curr);
 
-// 5
+// Number 5
 
 let string2 = "Hello World";
 let occur = "ell";
 let result = string2.replace(occur, "");
 console.log(result);
 
-// 6
+// Number 6
 let string3 = "hello world";
 let result2 = "";
 
@@ -75,7 +77,7 @@ for (let i = 0; i < string3.length; i++) {
 
 console.log(result2);
 
-//7
+// Number 7
 let string4 = "hello";
 let result3 = "";
 
@@ -85,7 +87,7 @@ for (let i = string4.length - 1; i >= 0; i--) {
 
 console.log(result3);
 
-//8
+// Number 8
 let string5 = "The QuiCk BrOwN Fox";
 let result4 = "";
 
@@ -99,7 +101,7 @@ for (let i = 0; i < string5.length; i++) {
 
 console.log(result4);
 
-// 9
+// Number 9
 let num1 = 11;
 let num2 = 27;
 
@@ -109,7 +111,7 @@ if (num1 > num2) {
   console.log("Num 2 greater than num 1");
 }
 
-//10
+// Number 10
 
 let number1 = 42;
 let number2 = 27;
@@ -120,7 +122,7 @@ if (number1 < number2 && number1 < number3) {
   
 }
 
-//11
+// Number 11
 
 let inputData = true;
 let resultInput = 0;
@@ -136,7 +138,7 @@ console.log(
   `Type of data ${inputData} is ${typeof inputData} -> ${resultInput}`
 );
 
-// 12
+// Number 12
 let string6 = "An apple a day keeps the doctor away";
 let changed = "a";
 let resultChange = "";
