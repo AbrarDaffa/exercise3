@@ -18,9 +18,9 @@ for (let i = string.length - 1; i >= 0; i--) {
 }
 
 if (container === string) {
-  console.log("The word is Palindrome");
+  console.log("The word is palindrome");
 } else {
-  console.log("The word isn't Palindrome");
+  console.log("The word is not palindrome");
 }
 
 // Number 3
@@ -139,7 +139,7 @@ console.log(
 );
 
 // Number 12
-let string6 = "An Apple a day keeps the Doctors away";
+let string6 = "An apple a day keeps the doctor away";
 let changed = "a";
 let resultChange = "";
 
